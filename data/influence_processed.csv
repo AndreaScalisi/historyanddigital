@@ -1,14 +1,14 @@
-,init_event,init_place,target_event,target_place
-1,Purchase_Eisenlohr_Wheatstone,"49.0068705, 8.4034195",Meeting_Hipp_Eisenlohr,"49.0068705, 8.4034195"
-2,Meeting_Hipp_Eisenlohr,"49.0068705, 8.4034195",Creation_Hipp_Chronoscope,"46.9895828, 6.9292641"
-3,Creation_Hipp_Chronoscope,"46.9895828, 6.9292641",Borrow_Hirsch_Hipp,"46.9895828, 6.9292641"
-4,Borrow_Hirsch_Hipp,"46.9895828, 6.9292641",Publication_Hirsch_Wundt,"46.9895828, 6.9292641"
-5,Borrow_Hirsch_Hipp,"46.9895828, 6.9292641",Publication_Hirsch_Wundt,"51.3406321, 12.3747329"
-6,Publication_Hirsch_Wundt,"51.3406321, 12.3747329",Letter_Wundt_Claparède,"51.3406321, 12.3747329"
-7,Publication_Hirsch_Wundt,"51.3406321, 12.3747329",Letter_Wundt_Claparède,"46.2017559, 6.1466014"
-0,Purchase_Eisenlohr_Wheatstone,"49.0068705, 8.4034195",Meeting_Hipp_Eisenlohr,"49.0068705, 8.4034195"
-1,Meeting_Hipp_Eisenlohr,"49.0068705, 8.4034195",Creation_Hipp_Chronoscope,"46.9895828, 6.9292641"
-2,Creation_Hipp_Chronoscope,"46.9895828, 6.9292641",Borrow_Hirsch_Hipp,"46.9895828, 6.9292641"
-3,Borrow_Hirsch_Hipp,"46.9895828, 6.9292641",Publication_Hirsch_Wundt,"46.9895828, 6.9292641"
-4,Publication_Hirsch_Wundt,"46.9895828, 6.9292641",Letter_Wundt_Claparède,"51.3406321, 12.3747329"
-5,Publication_Hirsch_Wundt,"51.3406321, 12.3747329",Letter_Wundt_Claparède,"51.3406321, 12.3747329"
+foo,init_place,target_place,link
+1,"49.0068705, 8.4034195","49.0068705, 8.4034195",Purchase_Eisenlohr_Wheatstone --> Meeting_Hipp_Eisenlohr
+2,"49.0068705, 8.4034195","46.9895828, 6.9292641",Meeting_Hipp_Eisenlohr --> Creation_Hipp_Chronoscope
+3,"46.9895828, 6.9292641","46.9895828, 6.9292641",Creation_Hipp_Chronoscope --> Borrow_Hirsch_Hipp
+4,"46.9895828, 6.9292641","46.9895828, 6.9292641",Borrow_Hirsch_Hipp --> Publication_Hirsch_Wundt
+5,"46.9895828, 6.9292641","51.3406321, 12.3747329",Borrow_Hirsch_Hipp --> Publication_Hirsch_Wundt
+6,"51.3406321, 12.3747329","51.3406321, 12.3747329",Publication_Hirsch_Wundt --> Letter_Wundt_Claparède
+7,"51.3406321, 12.3747329","46.2017559, 6.1466014",Publication_Hirsch_Wundt --> Letter_Wundt_Claparède
+0,"49.0068705, 8.4034195","49.0068705, 8.4034195",Purchase_Eisenlohr_Wheatstone --> Meeting_Hipp_Eisenlohr
+1,"49.0068705, 8.4034195","46.9895828, 6.9292641",Meeting_Hipp_Eisenlohr --> Creation_Hipp_Chronoscope
+2,"46.9895828, 6.9292641","46.9895828, 6.9292641",Creation_Hipp_Chronoscope --> Borrow_Hirsch_Hipp
+3,"46.9895828, 6.9292641","46.9895828, 6.9292641",Borrow_Hirsch_Hipp --> Publication_Hirsch_Wundt
+4,"46.9895828, 6.9292641","51.3406321, 12.3747329",Publication_Hirsch_Wundt --> Letter_Wundt_Claparède
+5,"51.3406321, 12.3747329","51.3406321, 12.3747329",Publication_Hirsch_Wundt --> Letter_Wundt_Claparède
